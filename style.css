@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 body{
     margin: 0px !important;
     padding: 0px !important;
     font-family: "Rubik", serif;
+    background-color: #fff;
 }
 .navbar {
     display: flex;
@@ -108,7 +109,6 @@ body{
 /* ************************************************** */
     /* HEADER END */
 /* ************************************************** */
-
 section.header-banner .col-lg-6 h1 {
     color: #333;
     font-size: 28px;
@@ -145,6 +145,7 @@ color: #605ccd;
     background-position: center;
     padding: 0px 111px;
     height: 380px;
+    border-radius: 10px;
 }
 .banner-img img{
     width: 85%;
@@ -154,4 +155,540 @@ color: #605ccd;
  /* **************************************************  
                  BANNER END 
  **************************************************  */
+ .padder{
+    padding-top: 70px;
+ }
+.heading{
+    color: #222;
+    font-family: "Rubik", serif;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+}
+.hand-card{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* background-color: black */
+}
+.example {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 192Px;
+  }
+
+.border-color{
+    background: #f2c2b8;
+    border-radius: 10px 10px 0px 0px;
+}
+.border-colors{
+    background: #caeff7;
+    border-radius: 10px 10px 0px 0px;
+}
+
+  .examplelogo {
+    padding: 25px 0px ;
+    border-radius: 50%;
+  }
+  
+  .examplelogo img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: contain;
+    
+  }
+ 
+  .verified {
+    background-color: #ffe6d5;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  .verified i {
+    color: #f56400;
+    margin-right: 5px;
+  }
+  .verified span {
+    color: #f56400;
+    font-weight: bold;
+    font-family: "Rubik", serif;
+    font-size: 10px;
+  }
+  .cent p{
+    font-family: "Rubik", serif;
+    color: #333;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-top: 5px;
+}
+.time{
+    color: #757575;
+    font-family: "Rubik", serif;
+    font-size: 13px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    
+}
+/* ********* */
+
+.arrow {
+        border: 1.5px solid darkgrey;
+        border-radius: 11px;
+        background: #ffffff;
+         color: #989898; 
+         margin: 0 auto 40px;
+        padding: 10px;
+        text-align: center;
+        width: 155px;
+}
+  .arrow--1 {
+    position: relative;
+  }
+
+
+  .arrow--1:after, .arrow--1:before {
+    border: solid transparent;
+    content: " ";
+    display: block;
+    height: 0;
+    position: absolute;
+    pointer-events: none;
+    width: 0;
+    bottom: 100%;
+  }
+  .arrow--1:after {
+    border-color: rgba(255, 255, 255, 0);
+    border-bottom-color: #ffffff;
+    left: 30px;
+    margin-left: -10px;
+    border-width: 10px;
+    size: 10px;
+  }
+  .arrow--1:before {
+    border-color: rgba(255, 255, 255, 0);
+    border-bottom-color: #acacac;
+    left: 30px;
+    margin-left: -14px;
+    border-width: 14px;
+    size:   10px;
+  }
+.cent img{
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    margin-right: 10px;
+}
+
+ /* **************************************************  
+                 HAND TEST END 
+ **************************************************  */
+ .hand-cont {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    width: 100%; 
+}
+.cord {
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 295px;
+    width: 100%;
+}
+.cord img {
+    height: 160px;
+    /* width: 416px; */
+    width: 100%;
+}
+.cord-content {
+    padding: 20px;
+    color: white;
+}
+.cord-content.green {
+    background-color: #8bc34a;
+}
+.cord-content.blue {
+    background-color: #03a9f4;
+}
+.cord-content.orange {
+    background-color: #ff7043;
+}
+.cord-content .logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.cord-content .logo img {
+    width: 80px;
+    height: 80px;
+}
+.cord-content .title {
+    font-family: "Rubik", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    margin-bottom: 5px;
+    color: white;
+}
+.cord-content .tags {
+    display: flex;
+    gap: 10px;
+}
+.cord-content .tags .tag {
+    background-color: rgba(0, 0, 0, .2);
+    padding: 0px 5px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-family: "Rubik", serif;
+    font-size: 15px;
+}
+/* **************************************************  
+                 DOGS TEST END 
+ **************************************************  */
+
+.slider{
+    height: 400px;
+    background-color: #f2f5ff;;
+    margin-top: 40px;
+}
+
+/* **************************************************  
+                 SLIDER TEST END 
+ **************************************************  */
+
+
+.deal-container {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.deal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.deal-header h2 {
+    font-family: "Rubik", serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.view-more {
+    text-decoration: none;
+    color: #e74c3c;
+    font-weight: 600;
+}
+.view a {
+    color: #ea4b4d;
+    display: flex;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    font-family: "Rubik", serif;
+    text-decoration: none;
+}
+.view a i {
+    font-size: 15px; 
+    margin-top: 3px;   
+}
+
+.deal-card {
+        /* background-color: blue; */
+        border: 1px solid #ddd;
+        width: 100% !important;
+        padding: 15px;
+        /* margin-left: 10px !important; */
+        /* padding-left: 0px !important; */
+        border-radius: 8px;
+        /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+        position: relative;
+        left: -12px;
+        
+}
+.main-border{
+    border: 1px solid #e8e8e8;
+    border-radius: 8px;
+    width: 100%;
+    height: 240px;
+    margin-bottom: 15px;
+    position: relative;
+
+}
+
+.deal-new {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    background-color: #007bff;
+    color: white;
+    font-family: "Rubik", serif;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 1px 8px;
+    border-radius: 5px;
+    width: 45px;
+}
+
+.deal-content {
+    display: flex;
+    align-items: flex-start;
+}
+
+.deal-content img {
+    width: 190px;
+    height: 190px;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+.deal-info {
+    flex: 1;
+}
+
+.deal-info h3 {
+    font-family: "Rubik", serif;
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.price {
+    margin: 5px 0;
+    font-family: "Rubik", serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.current-price {
+    color: #e74c3c;
+}
+
+.original-price {
+    text-decoration: line-through;
+    color: #888;
+    margin-left: 10px;
+}
+
+.discount {
+    background-color: #f39c12;
+    color: white;
+    padding: 2px 6px;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+
+.description {
+    margin: 10px 0;
+    font-family: "Lora", serif;
+    color: #444;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 18px;
+    margin: 2px 0;
+    margin-top: 15px;
+
+}
+
+.deal-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.deal-btn {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 10px 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.deal-btn:hover {
+    background-color: #c0392b;
+}
+
+.reaction-icons button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-family: "Rubik", serif;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.reaction-icons button:hover {
+    color: #e74c3c;
+}
+
+.deal-footer {
+    margin-top: 20px;
+    font-family: "Rubik", serif;
+    font-size: 12px;
+    color: #888;
+    text-align: left;
+}
+.deal-footer p span{
+    color: #3686fe;
+    font-size: 13px;
+    line-height: 15px;
+    margin-right: 10px;
+}
+.right-border{
+    border-right: 1px solid #e8e8e8;
+    height: 238px;
+    margin-right: 10px !important;
+    /* margin-bottom: 100px !important; */
+    /* margin-top: -15px !important; */
+}
+.fixing{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* SIDEBAR */
+
+.title-sidebar {
+    color: #222;
+    font-family: "Rubik", serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 10px;
+    margin-top: 48px;
+}
+
+.card {
+    /* background-color: black; */
+    /* position: relative; */
+    /* left: -18px; */
+    border-radius: 10px;
+    overflow: hidden;
+    border: none;
+}
+.cardio{
+    /* margin-top: 40px !important; */
+    /* background-color: yellow; */
+}
+.card img {
+    width: 100%;
+    height: 190px;
+    /* border-top-left-radius: 10px;
+    border-top-right-radius: 10px; */
+}
+
+.card-content h2 {
+    font-family: "Rubik", serif;
+    font-size: 18px;
+    margin: 0;
+    color: white;
+    position: absolute;
+    bottom: 65px;
+    left: 15px;
+}
+.card-footer {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    height: 15%x;
+    border-top: none;
+}
+.card-footer img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.card-footer .author {
+    font-family: "Rubik", serif;
+    font-size: 14px;
+    color: #333;
+}
+.card-footer .date {
+    font-family: "Rubik", serif;
+    font-size: 14px;
+    color: #999;
+    margin-left: 5px;
+}
+
+/* **************************************************  
+                 DEALING END 
+ **************************************************  */
+ .review{
+    height: 400px;
+    background: #fff7f7;
+ }
+ 
+ 
+ /* **************************************************  
+                 REVIEW END 
+ **************************************************  */
+ .guide-img-setup img{
+    width: 265px;
+    height: 265px;
+    object-fit: cover;
+    border-radius: 10px;
+    
+}
+.guide-image{
+    position: relative;
+}
+.badge{
+    position: absolute;
+    bottom: 90px;
+    left: 25px;
+    background-color: #ea4b4d;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    height: 26px;
+    line-height: 16px;
+  
+}
+
+.titling{
+    color: #333;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 22px;
+    margin-top: 12px;
+}
+.guide-content img{
+    object-fit: cover;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.guide-content p {
+    font-family: "Rubik", serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #333;
+    margin-top: 15px;
+}
+.guide-content span {
+    font-family: "Rubik", serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #999;
+    /* margin-top: 5px; */
+}
 
