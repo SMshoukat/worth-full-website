@@ -9,7 +9,8 @@ body{
 .navbar {
     display: flex;
     align-items: center;
-    padding: 20px 20px;
+    position: fixed;
+    padding: 20px 0px;
     background-color: white;
     border-bottom: 1px solid #e0e0e0;
 }
@@ -111,6 +112,10 @@ body{
 /* ************************************************** */
     /* HEADER END */
 /* ************************************************** */
+
+section.header-banner {
+    margin-top: 120px;
+}
 section.header-banner .col-lg-6 h1 {
     color: #333;
     font-size: 28px;
@@ -746,11 +751,11 @@ color: #605ccd;
 
 }
 .righty-border{
-    border-right: 1px solid lightgray;
+    border-right: 1px solid #e2e2e2;
     height: 120px;
     position: absolute;
     bottom: 37px;
-    left: 340px;
+    left: 320px;
 }
 
 .foo-list ul li {
@@ -765,11 +770,11 @@ color: #605ccd;
     position: relative;
 }
 .left-border{
-    border-right: 1px solid lightgray;
+    border-right: 1px solid #e2e2e2;
     height: 120px;
     position: absolute;
     bottom: 37px;
-    left: 390px;
+    left: 410px;
 }
 .download-extension h6{
     color: #333;
@@ -803,7 +808,7 @@ color: #605ccd;
     height: 35px;
 }
 .lefty-border{
-    border-right: 1px solid lightgray;
+    border-right: 1px solid #e2e2e2;
     height: 120px;
     position: absolute;
     bottom: 37px;
@@ -874,4 +879,14 @@ color: #605ccd;
     margin-top: 10px;
     text-align: center;
     font-family: "Rubik", serif;
+}
+.left-marged{
+padding-left: 50px;
+   
+}
+.left-marging{
+    padding-left: 10px;
+}
+.left-marg{
+    padding-left: 40px;
 }
