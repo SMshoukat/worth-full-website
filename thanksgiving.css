@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+body{
+    margin: 0px !important;
+    padding: 0px !important;
+    font-family: "Rubik", serif;
+    background-color: #fafafa;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    padding: 20px 0px;
+    background-color: white;
+    border-bottom: 1px solid #e0e0e0;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    font-family: "Rubik", serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #e74c3c;
+    margin-right: 20px;
+    
+}
+.logo img {
+    width: 120px;
+    height: 40px;
+    margin-right: 50px;
+    margin-left: 20px;
+}
+.logo span {
+    font-family: "Rubik", serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #000;
+}
+.nav-links {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+.nav-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+    font-family: "Rubik", serif;
+    font-size: 16px;
+}
+.nav-links .highlight {
+    display: flex;
+    align-items: center;
+    background-color: #f5f5f5;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.nav-links .highlight img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #f5f5f5;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 20px;
+    flex-grow: 1;
+}
+.search-bar input {
+    border: none;
+    background: none;
+    outline: none;
+    flex-grow: 1;
+    font-family: "Rubik", serif;
+    font-size: 16px;
+    color: #888;
+}
+.search-bar i {
+    color: #888;
+}
+.auth-buttons {
+    display: flex;
+    align-items: center;
+}
+.auth-buttons a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+    font-family: "Rubik", serif;
+    font-size: 16px;
+}
+.auth-buttons .submit-btn {
+    background-color: #e74c3c;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.navbar{
+ background-color: #fff;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .1), inset 0 -1px 0 0 hsla(0, 0%, 82%, .5);
+    /* position: fixed; */
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+}
+
+/* ************************************************** */
+    /* HEADER END */
+/* ************************************************** */
+    
+.banner-slider{
+    padding-top: 100px;
+}
+.banner-slider .container-fluid{
+    padding: 0px 40px;
+
+}
+.carousel-control-next-icon {
+    background-color: #fff;
+    background-image: url(./assets/images/arrow_right2-1024.webp);
+    border-radius: 50%;
+    margin-right: -164px;
+    height: 38px;
+    width: 38px;
+    
+}
+.carousel-control-prev-icon {
+    background-color: #fff;
+    background-image: url(./assets/images/arrow_left2-512.webp);
+    border-radius: 50%;
+    margin-left: -164px;
+    height: 38px;
+    width: 38px;
+}
+/* ************* */
+.thanks-card {
+    margin-top: 80px;
+}
+.thanks-card .container-fluid{
+    padding: 0px 40px;
+}
+.thanks-first{
+    position: relative;
+}
+.thanks-first .b-img{
+    height: 190px;
+    /* width: 190px !important; */
+}
+.card-heading{
+    color: #222;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: center;
+}
+.t-img {
+    position: absolute;
+    left: 75px;
+    top: 155px;
+}
+.thanks-content h6{
+    color: #333;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    margin-bottom: 5px;
+    padding: 0 10px;
+    text-align: center;
+}
+.thanks-content p{
+    color: #333;
+    font-size: 16px;
+    line-height: 21px;
+    margin-bottom: 20px;
+    min-height: 42px;
+    padding: 0 10px;
+    text-align: center;
+}
+.main-thanks{
+    width: 94%;
+}
