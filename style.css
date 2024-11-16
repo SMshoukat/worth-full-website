@@ -10,7 +10,7 @@ body{
     display: flex;
     align-items: center;
     position: fixed;
-    padding: 20px 0px;
+    padding: 18px 20px;
     background-color: white;
     border-bottom: 1px solid #e0e0e0;
 }
@@ -25,10 +25,10 @@ body{
     
 }
 .logo img {
-    width: 120px;
+    width: 130px;
     height: 40px;
-    margin-right: 50px;
-    margin-left: 20px;
+
+    margin-left: 20px; 
 }
 .logo span {
     font-family: "Rubik", serif;
@@ -42,7 +42,7 @@ body{
     flex-grow: 1;
 }
 .nav-links a {
-    margin: 0 10px;
+    margin: 0 10px;  
     text-decoration: none;
     color: black;
     font-family: "Rubik", serif;
@@ -77,6 +77,7 @@ body{
     font-family: "Rubik", serif;
     font-size: 16px;
     color: #888;
+    width: 100%;
 }
 .search-bar i {
     color: #888;
@@ -114,7 +115,8 @@ body{
 /* ************************************************** */
 
 section.header-banner {
-    margin-top: 120px;
+    margin-top: 120px;  
+    padding: 0px 40px;
 }
 section.header-banner .col-lg-6 h1 {
     color: #333;
@@ -150,21 +152,25 @@ color: #605ccd;
     background-image: url(./assets/images/banner@2x.webp) !important;
     background-size: cover;
     background-position: center;
-    padding: 0px 111px;
-    height: 380px;
+    padding: 0px 100px;
     border-radius: 10px;
+    height: 350px;
 }
 .banner-img img{
     width: 100%;
     margin-top: 40px;
     margin-left: 90px;
+    height: 250px;
 }
  /* **************************************************  
                  BANNER END 
  **************************************************  */
- .padder{
+
+ .hand-tested{
+    padding: 0px 40px;
     padding-top: 70px;
  }
+
 .heading{
     color: #222;
     font-family: "Rubik", serif;
@@ -182,9 +188,8 @@ color: #605ccd;
 .example {
     background-color: #fff;
     border-radius: 10px;
-    padding: 10px;
+    padding: 8px;
     text-align: center;
-    width: 192Px;
   }
 
 .border-color{
@@ -298,26 +303,28 @@ color: #605ccd;
  /* **************************************************  
                  HAND TEST END 
  **************************************************  */
+ .dog-section{
+    padding: 0px 30px;  
+ }
  .hand-cont {
     display: flex;
     justify-content: center;
-    gap: 5px;
     width: 100%; 
 }
 .cord {
     border-radius: 5px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    height: 295px;
+    height: 275px;
     width: 100%;
 }
 .cord img {
-    height: 160px;
+    height: 150px;
     /* width: 416px; */
     width: 100%;
 }
 .cord-content {
-    padding: 20px;
+    padding: 10px 20px;
     color: white;
 }
 .cord-content.green {
@@ -375,10 +382,8 @@ color: #605ccd;
                  SLIDER TEST END 
  **************************************************  */
 
-
-.deal-container {
-    max-width: 100%;
-    margin: 0 auto;
+.dealig-card{
+    padding: 0px 40px;
 }
 
 .deal-header {
@@ -643,9 +648,12 @@ color: #605ccd;
  /* **************************************************  
                  REVIEW END 
  **************************************************  */
- .guide-img-setup img{
-    width: 265px;
-    height: 265px;
+.guide{
+    padding: 0px 30px;
+} 
+.guide-img-setup img{
+    width: 280px;
+    height: 230px;
     object-fit: cover;
     border-radius: 10px;
     
@@ -722,6 +730,9 @@ color: #605ccd;
     background-color: #f0f0f0;
     position: relative;
  }
+ .main-footer .container-fluid{
+    padding: 0px 40px;
+ }
  .social-icons {
     display: flex;
     gap: 10px;
@@ -755,7 +766,7 @@ color: #605ccd;
     height: 120px;
     position: absolute;
     bottom: 37px;
-    left: 320px;
+    left: 340px;
 }
 
 .foo-list ul li {
@@ -774,7 +785,7 @@ color: #605ccd;
     height: 120px;
     position: absolute;
     bottom: 37px;
-    left: 410px;
+    left: 390px;
 }
 .download-extension h6{
     color: #333;
@@ -834,6 +845,7 @@ color: #605ccd;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-left: 70px !important;
 }
 
 /* ************* */

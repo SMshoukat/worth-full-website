@@ -11,18 +11,19 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+   
     <header class="head">
       <div class="container-fluid">
           <div class="row">
                 <div class="navbar">
-                  <div class="col-md-2">
+                  <div class="col-md-2 ">
                       <div class="logo">
-                        <a href="#">
-                          <img alt="Logo" src="./assets/images/logo-2 (1).svg" />                     
-                        </a>
+                          <a href="index.html">
+                              <img alt="Logo" src="./assets/images/logo-2 (1).svg" />                     
+                            </a>                     
                       </div>
                   </div>
-                  <div class="col-md-4">
+                  <div class="col-md-3 ">
 
                       <div class="nav-links">
                        <a href="review.html">
@@ -38,10 +39,10 @@
                       </div>
 
                   </div>
-                  <div class="col-md-4">
+                  <div class="col-md-5">
 
                       <div class="search-bar">
-                       <input placeholder="Search products and brands..." type="text"/>
+                       <input  placeholder="Search products and brands..." type="text"/>
                        <i class="fas fa-search">
                        </i>
                       </div>
@@ -49,11 +50,35 @@
                   <div class="col-md-2">
 
                       <div class="auth-buttons">
-                       <a href="#">
+                        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                          <i class="fas fa-user-circle"></i>
+                          Login
+                        </button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+                       <!-- <a href="#">
                         <i class="fas fa-user-circle">
                         </i>
                         Log In
-                       </a>
+                       </a> -->
                        <a class="submit-btn" href="#">
                         Submit +
                        </a>
@@ -71,7 +96,7 @@
 
 
     <section class="header-banner">
-      <div class="container custom-bg">
+      <div class="container-fluid custom-bg">
           <div class="row">
               <div class="col-lg-6 d-flex justify-content-center flex-column mt-5">
                  <h1>We Hand Test <span>1,000+</span> Codes Every Day To Ensure They Always Work</h1>
@@ -93,7 +118,7 @@
     <!-- ************************************************** -->
 
     <section class="hand-tested padder">
-      <div class="container">
+      <div class="container-fluid">
         <div class="row">
           <h1 class="heading ">Explore Hand-Tested Codes for Your Favorite Brands</h1>
             <div class="hand-card">
@@ -366,7 +391,7 @@
         <div class="row">
           <h1 class="heading pt-4">Hand-Tested Codes That Work!</h1>
 
-          <div class="col-md-4">
+          <div class="col-md-4 p-2">
             <div class="cord" >
               <img alt="Green crafts and decorations"  src="./assets/images/pic1@2x.webp" />
               <div class="cord-content green">
@@ -404,7 +429,7 @@
 
           </div>
 
-          <div class="col-md-4">
+          <div class="col-md-4 p-2">
             <div class="cord" >
               <img alt="Dogs and cats with a clock in the background" src="./assets/images/pic2@2x.webp"/>
               <div class="cord-content blue">
@@ -442,7 +467,7 @@
 
           </div>
 
-          <div class="col-md-4">
+          <div class="col-md-4 p-2">
             <div class="cord" >
               <img alt="Green crafts and decorations"  src="./assets/images/pic3@2x.webp" />
               <div class="cord-content orange">
@@ -501,9 +526,9 @@
     <!-- ************************************************** -->
 
 <section class="dealig-card padder"> 
-  <div class="container">
+  <div class="container-fluid">
     <div class="row ">
-    <div class="col-9 ">
+    <div class="col-9">
       <div class="cont mt-5 fixing">
         <h1 class="heading " >Deals That Make Every Penny Count</h1>
         <div class="view">
@@ -886,7 +911,7 @@
 
        
     <!-- SIDEBAR -->
-    <div class="col-md-3  card-head">
+    <div class="col-md-3  card-head p-0">
       <div class="title-sidebar">
        Top Clicks
       </div>
@@ -951,7 +976,7 @@
   <!-- ************************************************** -->
 
   <section class="guide padder my-5"> 
-    <div class="container">
+    <div class="container-fluid">
       <div class="row guide-img-setup ">
         <h1 class="heading mb-4">Our Latest Shopping Guides & Reviews</h1>
         
@@ -1138,7 +1163,7 @@
             </div>
         </div>
 
-        <div class="col-md-3">
+        <div class="col-md-3 ">
           <div class="download-extension mt-5">
               <h6>Download the Extension</h6>
               <p>Download the WorthEPenny extension for free and start saving today!</p>
@@ -1152,8 +1177,8 @@
         </div>
         <div class="col-md-2">
           <div class="end-part mt-5">
-            <h6>Get the App</h6>
             <div class="app-icons">
+              <h6>Get the App</h6>
               <img src="./assets/images/app-store.webp" alt="Google Play">
               <img class="app-store" src="./assets/images/google-play.png" alt="App Store">
           </div>
@@ -1193,7 +1218,8 @@
       </div>
       </div>
   </footer>
-
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </html>
